@@ -1,14 +1,11 @@
-import Header from "./sections/Header";
-import Footer from "./sections/Footer";
+import { Footer, Header } from "./components";
 
 export default function Home() {
   return (
     <>
-    <Header/>
-    <main className="h-[90svh]">
-      
-    </main>
-    <Footer/>
+      <Header />
+      <main className="h-[90svh]"></main>
+      <Footer />
     </>
   );
 }
